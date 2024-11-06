@@ -8,7 +8,7 @@ const Hero = () => {
     <div>
       <>
   
-  <div className="awesome" style={{ border: "3px solid red" }}>
+  <div className="awesome" style={{ border: "1px solid red" }}>
     <label htmlFor="name">Front-End Developer/AI-Enthusiast/Industrial Technologist </label>
     <input type="text" id="name" />
   </div>
@@ -19,7 +19,7 @@ const Hero = () => {
         <Image 
           className="object-cover object-center rounded mx-auto w-[15rem] " 
           alt="hero"
-          src={"/asset/bg.jpeg"} width={1000} height={800}
+          src={"/asset/images.jpeg"} width={50} height={50}
         />
       </div>
       <div className="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">

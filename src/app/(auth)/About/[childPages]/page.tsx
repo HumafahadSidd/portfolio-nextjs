@@ -4,7 +4,7 @@ export default async function ChildPages({ params }: { params: { ChildPages: str
   const { ChildPages } = params;
   
   return (
-    <div className="h-screen bg-blue-800 p-4 text-center text-black">
+    <div className="h-screen bg-indigo-300 p-4 text-center text-black">
       This is {ChildPages} page
     </div>
   );

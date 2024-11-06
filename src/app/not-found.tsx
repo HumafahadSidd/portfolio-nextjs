@@ -7,8 +7,9 @@ export default function NotFound(){
     <p className="text-center">Page not found</p>
     <p className="text-center"> Oho!you search something irrelevant <br />Try Again   </p>
     <br /><br />
-      <button className="bg-indigo-300  text-center px-3 py-3 rounded cursor-pointer text-"><Link href="/">Go back to Home</Link></button>
-        
+      
+      <div className="-pl-96"><button className="bg-indigo-300  text-center px-3 py-3 rounded cursor-pointer"><Link href="/">Go back to Home</Link></button>
+      </div>   
 </div>
     </div>
         
